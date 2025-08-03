@@ -25,7 +25,7 @@ Future continueWatchingDialog(BuildContext context, ContinueModel item) async {
                   Text(
                     item.movieName,
                     style: StyleConstants.description1
-                        .copyWith(fontWeight: FontWeight.w600),
+                        .copyWith(fontWeight: FontWeight.w800),
                   ),
                   GestureDetector(
                     onTap: () => Get.back(),
