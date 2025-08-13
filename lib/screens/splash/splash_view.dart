@@ -33,7 +33,7 @@ class _SplashViewScreenState extends State<SplashViewScreen> {
           videoController.play();
           videoController.setLooping(true);
         });
-        Future.delayed(Duration(seconds: 5), () {
+        Future.delayed(Duration(seconds: 10), () {
           Get.offAll(() => BottomBarView());
         });
       });
