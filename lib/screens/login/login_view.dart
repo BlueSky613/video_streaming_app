@@ -66,7 +66,7 @@ class LoginView extends StatelessWidget {
                     maxLines: SizeConstant.appSize1.toInt(),
                     overflow: TextOverflow.ellipsis,
                     style: StyleConstants.description2.copyWith(
-                        fontWeight: FontWeight.w400,
+                        fontWeight: FontWeight.w600,
                         color: ColorConstant.fontColorOpacity100)),
               ),
             ),
