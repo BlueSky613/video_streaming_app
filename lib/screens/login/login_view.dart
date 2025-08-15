@@ -33,7 +33,7 @@ class LoginView extends StatelessWidget {
             const SizedBox(height: SizeConstant.appSize55),
             Text(StringConstant.enterYourMobileNumber,
                 style: StyleConstants.description2
-                    .copyWith(fontWeight: FontWeight.w500)),
+                    .copyWith(fontWeight: FontWeight.w600)),
             const SizedBox(height: SizeConstant.appSize34),
             PrimeTextField(
               focusNode: loginController.mobileFocusNode,
